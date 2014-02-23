@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 
+# Use Bootstrap SASS for frontend framework
+gem 'bootstrap-sass', github: "twbs/bootstrap-sass", branch: "master"
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
