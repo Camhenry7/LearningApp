@@ -75,6 +75,9 @@ Pinterest::Application.configure do
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
+	# default mailer environment required for heroku
+	config.action_mailer.default_url_options = { :host => 'http://ceh-pinteresting.herokuapp.com/' }
+
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 end
